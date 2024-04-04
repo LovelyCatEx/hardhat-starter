@@ -1,0 +1,40 @@
+{
+  "name": "hardhat-starter",
+  "version": "1.0.0",
+  "description": "Hardhat Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage",
+    "node": "npx hardhat node",
+    "compile": "npx hardhat clean && npx hardhat compile",
+    "dev": "npx hardhat deploy --network localhost",
+    "sepolia": "npx hardhat deploy --network sepolia"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LovelyCatEx/hardhat-starter.git"
+  },
+  "keywords": [
+    "Hardhat"
+  ],
+  "author": "LovelyCat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LovelyCatEx/hardhat-starter/issues"
+  },
+  "homepage": "https://github.com/LovelyCatEx/hardhat-starter#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.5",
+    "@nomiclabs/hardhat-ethers": "^2.2.3",
+    "ethers": "^6.11.1",
+    "hardhat": "^2.22.2",
+    "hardhat-deploy": "^0.12.2",
+    "hardhat-deploy-ethers": "^0.4.1",
+    "hardhat-gas-reporter": "^2.1.0"
+  }
+}
