@@ -1,26 +1,31 @@
 # Sample Hardhat Project
 
+Features: typescript, ethers, auto-deploy, contract verification, gas reporter
+
 ## Quick Start
 
 1 Initialize the project
 
-```
-npm install
-```
+`npm install`
 
 2 Edit the .env file, create it if not exists
 
+```
+SEPOLIA_RPC_URL=
+PRIVATE_KEY=
+ETHER_SCAN_API_KEY=
+COIN_MARKET_CAP_API_KEY=
+```
+
 3 Deploy contracts
-```
-npm run node
-npm run dev
-```
+
+`npm run node`
+
+`npm run dev`
 
 If you want to deploy the contract to sepolia, run
 
-```
-npm run sepolia
-```
+`npm run sepolia`
 
 ## Original Commands
 
